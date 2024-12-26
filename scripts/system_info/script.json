@@ -1,0 +1,24 @@
+{
+    "name": "System Info",
+    "description": "Display system information with optional custom header",
+    "category": "System",
+    "platforms": {
+        "linux": ["system-info.sh"],
+        "darwin": ["system-info.sh"]
+    },
+    "parameters": [
+        {
+            "name": "HEADER",
+            "description": "Custom header message",
+            "default": "System Information Report",
+            "required": false
+        },
+        {
+            "name": "DETAIL_LEVEL",
+            "description": "Level of detail (basic/full)",
+            "default": "basic",
+            "required": false
+        }
+    ],
+    "tags": ["system", "diagnostic", "info"]
+}
