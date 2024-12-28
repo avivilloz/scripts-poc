@@ -2,7 +2,7 @@
     "name": "System Info",
     "description": "Display system information with optional custom header",
     "terminal": {
-        "mode": "reuse",
+        "useCurrent": true,
         "closeOnExit": false
     },
     "category": "System",
