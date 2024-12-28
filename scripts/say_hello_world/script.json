@@ -1,7 +1,11 @@
 {
     "name": "Say Hello World",
     "description": "Display a simple greeting message",
-    "category": "System",
+    "terminal": {
+        "reuseExisting": true,
+        "closeOnExit": true
+    },
+    "category": "General",
     "platforms": {
         "linux": [
             "say-hello-world.sh"

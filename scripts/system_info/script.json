@@ -1,10 +1,18 @@
 {
     "name": "System Info",
     "description": "Display system information with optional custom header",
+    "terminal": {
+        "reuseExisting": false,
+        "closeOnExit": false
+    },
     "category": "System",
     "platforms": {
-        "linux": ["system-info.sh"],
-        "darwin": ["system-info.sh"]
+        "linux": [
+            "system-info.sh"
+        ],
+        "darwin": [
+            "system-info.sh"
+        ]
     },
     "parameters": [
         {
@@ -20,5 +28,9 @@
             "required": false
         }
     ],
-    "tags": ["system", "diagnostic", "info"]
+    "tags": [
+        "system",
+        "diagnostic",
+        "info"
+    ]
 }
