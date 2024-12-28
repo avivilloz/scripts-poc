@@ -3,7 +3,7 @@
     "description": "Display a simple greeting message",
     "terminal": {
         "mode": "useCurrent",
-        "closeOnExit": true
+        "closeOnExit": false
     },
     "category": "General",
     "platforms": {
