@@ -4,10 +4,10 @@
     "category": "System",
     "platforms": {
         "linux": [
-            "say-hello.sh"
+            "say-hello-world.sh"
         ],
         "darwin": [
-            "say-hello.sh"
+            "say-hello-world.sh"
         ]
     },
     "parameters": [],
