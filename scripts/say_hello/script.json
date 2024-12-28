@@ -2,7 +2,7 @@
     "name": "Say Hello",
     "description": "Display a simple greeting message",
     "terminal": {
-        "reuseExisting": true,
+        "mode": "new",
         "closeOnExit": false
     },
     "category": "General",
