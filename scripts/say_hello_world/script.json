@@ -1,0 +1,17 @@
+{
+    "name": "Say Hello World",
+    "description": "Display a simple greeting message",
+    "category": "System",
+    "platforms": {
+        "linux": [
+            "say-hello.sh"
+        ],
+        "darwin": [
+            "say-hello.sh"
+        ]
+    },
+    "parameters": [],
+    "tags": [
+        "greeting"
+    ]
+}
