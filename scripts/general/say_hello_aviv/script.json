@@ -12,6 +12,9 @@
         ],
         "darwin": [
             "say-hello-aviv.sh"
+        ],
+        "windows": [
+            "say-hello-aviv.ps1"
         ]
     },
     "parameters": [],
