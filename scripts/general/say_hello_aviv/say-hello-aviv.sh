@@ -6,4 +6,5 @@ print_separator() {
 
 print_separator
 echo "Hello, Aviv!"
+echo $SCRIPTS_REPO_PATH
 print_separator
