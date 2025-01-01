@@ -19,7 +19,23 @@
             "name": "NAME",
             "description": "Name to greet",
             "default": "World",
-            "required": false
+            "required": false,
+            "type": "text"
+        },
+        {
+            "name": "BOOLEAN PARAM",
+            "description": "boolean param",
+            "default": true,
+            "type": "boolean"
+        },
+        {
+            "name": "SELECT PARAM",
+            "description": "select param",
+            "type": "select",
+            "options": {
+                "option1": "Option 1",
+                "option2": "Option 2"
+            }
         }
     ],
     "tags": [
