@@ -19,8 +19,7 @@
             "name": "NAME",
             "description": "Name to greet",
             "default": "World",
-            "required": false,
-            "type": "text"
+            "required": false
         },
         {
             "name": "BOOLEAN PARAM",
