@@ -5,7 +5,7 @@
         "useCurrent": true,
         "onExit": {
             "refresh": false,
-            "clear": true,
+            "clear": false,
             "close": false
         }
     },
