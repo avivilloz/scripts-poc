@@ -5,8 +5,8 @@
         "useCurrent": true,
         "onExit": {
             "close": false,
-            "clear": true,
-            "refresh": false
+            "clear": false,
+            "refresh": true
         }
     },
     "category": "General",
