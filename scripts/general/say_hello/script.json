@@ -2,9 +2,8 @@
     "name": "Say Hello",
     "description": "Display a simple greeting message",
     "terminal": {
-        "new": false,
         "onExit": {
-            "refresh": false,
+            "refresh": true,
             "clear": false,
             "close": false
         }
