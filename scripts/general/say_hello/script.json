@@ -25,13 +25,14 @@
         {
             "name": "BOOLEAN PARAM",
             "description": "boolean param",
-            "default": true,
+            "default": false,
             "type": "boolean"
         },
         {
             "name": "SELECT PARAM",
             "description": "select param",
             "type": "select",
+            "default": "option1",
             "options": [
                 "option1",
                 "option2",
