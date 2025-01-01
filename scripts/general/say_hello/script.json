@@ -21,8 +21,7 @@
     "parameters": [
         {
             "name": "NAME",
-            "description": "Name to greet",
-            "required": true
+            "description": "Name to greet"
         },
         {
             "name": "BOOLEAN PARAM",
