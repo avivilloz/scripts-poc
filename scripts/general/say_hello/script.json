@@ -25,7 +25,7 @@
         {
             "name": "BOOLEAN PARAM",
             "description": "boolean param",
-            "default": false,
+            "default": true,
             "type": "boolean"
         },
         {
