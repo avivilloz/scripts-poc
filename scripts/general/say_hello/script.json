@@ -32,10 +32,11 @@
             "name": "SELECT PARAM",
             "description": "select param",
             "type": "select",
-            "options": {
-                "option1": "Option 1",
-                "option2": "Option 2"
-            }
+            "options": [
+                "option1",
+                "option2",
+                "option3"
+            ]
         }
     ],
     "tags": [
