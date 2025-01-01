@@ -2,8 +2,12 @@
     "name": "Say Hello",
     "description": "Display a simple greeting message",
     "terminal": {
-        "useCurrent": false,
-        "closeOnExit": false
+        "useCurrent": true,
+        "OnExit": {
+            "refresh": false,
+            "clear": false,
+            "close": false
+        }
     },
     "category": "General",
     "platforms": {
@@ -30,7 +34,6 @@
             "name": "SELECT PARAM",
             "description": "select param",
             "type": "select",
-            "default": "option1",
             "options": [
                 "option1",
                 "option2",
