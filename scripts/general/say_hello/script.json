@@ -30,7 +30,6 @@
         {
             "name": "SELECT PARAM",
             "description": "select param",
-            "type": "select",
             "default": "option1",
             "options": [
                 "option1",
