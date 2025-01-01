@@ -6,7 +6,7 @@
         "onExit": {
             "refresh": false,
             "clear": false,
-            "close": true
+            "close": false
         }
     },
     "category": "General",
