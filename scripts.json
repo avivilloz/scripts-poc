@@ -1,0 +1,90 @@
+{
+    "scripts": [
+        {
+            "name": "System Info",
+            "description": "Display system information with optional custom header",
+            "terminal": {
+                "useCurrent": true,
+                "closeOnExit": false
+            },
+            "category": "System",
+            "platforms": {
+                "linux": [
+                    "scripts/system/system_info/system-info.sh"
+                ],
+                "darwin": [
+                    "scripts/system/system_info/system-info.sh"
+                ]
+            },
+            "parameters": [
+                {
+                    "name": "HEADER",
+                    "description": "Custom header message",
+                    "default": "System Information Report",
+                    "required": false
+                },
+                {
+                    "name": "DETAIL_LEVEL",
+                    "description": "Level of detail (basic/full)",
+                    "default": "basic",
+                    "required": false
+                }
+            ],
+            "tags": [
+                "system",
+                "diagnostic",
+                "info"
+            ]
+        },
+        {
+            "name": "Say Hello World",
+            "description": "Display a simple greeting message",
+            "terminal": {
+                "useCurrent": true,
+                "closeOnExit": false
+            },
+            "category": "General",
+            "platforms": {
+                "linux": [
+                    "scripts/general/say_hello_world/say-hello-world.sh"
+                ],
+                "darwin": [
+                    "scripts/general/say_hello_world/say-hello-world.sh"
+                ]
+            },
+            "parameters": [],
+            "tags": [
+                "greeting"
+            ]
+        },
+        {
+            "name": "Say Hello Aviv",
+            "description": "Display a simple greeting message",
+            "terminal": {
+                "useCurrent": true,
+                "onExit": {
+                    "close": false,
+                    "clear": false,
+                    "refresh": true
+                }
+            },
+            "category": "General",
+            "platforms": {
+                "linux": [
+                    "scripts/general/say_hello_aviv/say-hello-aviv.sh"
+                ],
+                "darwin": [
+                    "scripts/general/say_hello_aviv/say-hello-aviv.sh"
+                ],
+                "windows": [
+                    "scripts/general/say_hello_aviv/say-hello-aviv.ps1"
+                ]
+            },
+            "parameters": [],
+            "tags": [
+                "greeting"
+            ]
+        }
+    ]
+}
+
